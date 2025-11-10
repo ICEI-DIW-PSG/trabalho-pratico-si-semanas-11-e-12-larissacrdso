@@ -1,0 +1,131 @@
+html{
+    height: 100%;
+    
+}
+
+body,ul,li,p {
+    margin:0px;
+    padding: 0px;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 120%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    display: flex;
+}
+
+/*formatação da estrutura*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+main {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+footer {
+    background-color: #fbe9ea;
+    display: flex;
+    height: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+
+/*Componente menu principal*/
+.caixa-menu-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caixa-menu-principal ul {
+    list-style: none;
+}
+.caixa-menu-principal ul li{
+    display: inline-block;
+    
+}
+.caixa-menu-principal ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+/*Componente menu principal*/
+.caixa-post {
+    margin-bottom: 20px;
+    clear: both;
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+
+}
+.caixa-post img{
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.caixa-post h3{
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+}
+
+.caixa-post h4{
+    font-size: 1rem;
+    color: gray;
+    margin: 0 0 10px 15px ;
+    white-space: nowrap;
+}
+
+.caixa-post p{
+    margin-top: 20px;
+    font-size: 0.95rem;
+    color: darkgray;
+    line-height: 1.4;
+}
+/*CSS FLEX BOX 1 - INICIO*/
+
+.caixa-post{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.caixa-post > div{
+    flex: 1 1 200px;
+}
+
+/*CSS FLEX BOX 1 - FIM*/

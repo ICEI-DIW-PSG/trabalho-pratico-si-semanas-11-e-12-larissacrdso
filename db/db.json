@@ -1,18 +1,55 @@
 {
-  "usuarios": [
+  "livros": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "A Hipótese do Amor",
+      "imagemCard": "a hipotese.jpg",
+      "imagemCarrossel": "a-hipotese-carrosel.jpg",
+      "resumo": "Um namoro de mentira entre cientistas onde todas as teorias calculadas sobre o amor são postas à prova.",
+      "genero": "Romance",
+      "paginas": 320,
+      "lancamento": "2021",
+      "avaliacao": 4.5,
+      "detalhes": "Olive Smith, aluna do doutorado em Biologia da Universidade Stanford, acredita na ciência, não em algo incontrolável como o amor. Depois de sair algumas vezes com Jeremy, ela percebe que sua melhor amiga gosta dele e decide juntá-los. Sem muitas opções, ela resolve inventar um namoro de mentira e, num momento de pânico, beija o primeiro homem que vê pela frente. O problema é que esse homem é Adam Carlsen, um jovem professor de prestígio – conhecido por levar os alunos às lágrimas. Por isso, Olive fica chocada quando o tirano dos laboratórios concorda em levar adiante a farsa e fingir ser seu namorado.",
+      "fotos": [
+        { "titulo": "Capa", "imagem": "a hipotese.jpg" },
+        { "titulo": "Olive Smith", "imagem": "olive.jpg" },
+        { "titulo": "Adam Carlsen", "imagem": "adam.png" }
+      ]
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "titulo": "A Razão do Amor",
+      "imagemCard": "a razao.jpg",
+      "imagemCarrossel": "a-razao-carrossel.JPEG",
+      "resumo": "Dois rivais do xadrez frente a frente, pondo em jogo o coração deles.",
+      "genero": "Romance/Competição",
+      "paginas": 280,
+      "lancamento": "2022",
+      "avaliacao": 4,
+      "detalhes": "A carreira de Bee Königswasser está indo de mal a pior. Quando surge um processo seletivo para liderar um projeto de neuroengenharia da Nasa, ela se faz a pergunta que sempre guiou sua vida: o que Marie Curie faria? Participaria, é claro. Depois de conquistar a vaga, Bee descobre que precisará trabalhar com Levi Ward. É um desafio que a mãe da física moderna nunca precisou enfrentar.",
+      "fotos": [
+        { "titulo": "Capa", "imagem": "a razao.jpg" },
+        { "titulo": "Bee Königswasser", "imagem": "bee.jpg" },
+        { "titulo": "Levi Ward", "imagem": "levi.jpg" }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Amor Teoricamente",
+      "imagemCard": "amor teori.jpg",
+      "imagemCarrossel": "amor-teoricamente-carrossel.jpg",
+      "resumo": "Dois físicos rivais colidem em meio a disputas acadêmicas e namoros de mentira.",
+      "genero": "Romance/Acadêmico",
+      "paginas": 350,
+      "lancamento": "2023",
+      "avaliacao": 5,
+      "detalhes": "Elsie Hannaway é uma física teórica que passou anos de sua vida moldando diferentes versões de si mesma. Em alguns dias, ela trabalha como professora adjunta e oferece serviços de namorada de mentira. O culpado é Jack Smith, o irritante e atraente irmão mais velho de seu cliente favorito, que acaba se revelando um importante físico experimental. Apesar das dificuldades, ela consegue equilibrar bem seu cuidadoso 'Elsie-verso'... até que ele começa a desabar.",
+      "fotos": [
+        { "titulo": "Capa", "imagem": "amor teori.jpg" },
+        { "titulo": "Elsie", "imagem": "elsie.jpeg" },
+        { "titulo": "Jack Smith", "imagem": "jack.jpeg" }
+      ]
     }
   ]
 }
