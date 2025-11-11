@@ -1,55 +1,70 @@
 {
   "livros": [
     {
-      "id": 1,
-      "titulo": "A Hipótese do Amor",
-      "imagemCard": "a hipotese.jpg",
-      "imagemCarrossel": "a-hipotese-carrosel.jpg",
-      "resumo": "Um namoro de mentira entre cientistas onde todas as teorias calculadas sobre o amor são postas à prova.",
-      "genero": "Romance",
-      "paginas": 320,
-      "lancamento": "2021",
-      "avaliacao": 4.5,
-      "detalhes": "Olive Smith, aluna do doutorado em Biologia da Universidade Stanford, acredita na ciência, não em algo incontrolável como o amor. Depois de sair algumas vezes com Jeremy, ela percebe que sua melhor amiga gosta dele e decide juntá-los. Sem muitas opções, ela resolve inventar um namoro de mentira e, num momento de pânico, beija o primeiro homem que vê pela frente. O problema é que esse homem é Adam Carlsen, um jovem professor de prestígio – conhecido por levar os alunos às lágrimas. Por isso, Olive fica chocada quando o tirano dos laboratórios concorda em levar adiante a farsa e fingir ser seu namorado.",
-      "fotos": [
-        { "titulo": "Capa", "imagem": "a hipotese.jpg" },
-        { "titulo": "Olive Smith", "imagem": "olive.jpg" },
-        { "titulo": "Adam Carlsen", "imagem": "adam.png" }
-      ]
+      "titulo": "A Hipótese do Amor (Edição Atualizada)",
+      "autor": "Ali Hazelwood",
+      "ano": 2021,
+      "imagem": "hipotese.jpg",
+      "id": 1
     },
     {
       "id": 2,
       "titulo": "A Razão do Amor",
+      "autor": "Ali Hazelwood",
       "imagemCard": "a razao.jpg",
-      "imagemCarrossel": "a-razao-carrossel.JPEG",
-      "resumo": "Dois rivais do xadrez frente a frente, pondo em jogo o coração deles.",
-      "genero": "Romance/Competição",
-      "paginas": 280,
+      "imagemCarrossel": "a-razao-carrossel.jpg",
+      "resumo": "Bee é uma neuroengenheira que precisa trabalhar ao lado de Levi, seu antigo rival acadêmico, e descobre que o amor também pode ser científico.",
+      "genero": "Romance",
+      "paginas": 400,
       "lancamento": "2022",
-      "avaliacao": 4,
-      "detalhes": "A carreira de Bee Königswasser está indo de mal a pior. Quando surge um processo seletivo para liderar um projeto de neuroengenharia da Nasa, ela se faz a pergunta que sempre guiou sua vida: o que Marie Curie faria? Participaria, é claro. Depois de conquistar a vaga, Bee descobre que precisará trabalhar com Levi Ward. É um desafio que a mãe da física moderna nunca precisou enfrentar.",
-      "fotos": [
-        { "titulo": "Capa", "imagem": "a razao.jpg" },
-        { "titulo": "Bee Königswasser", "imagem": "bee.jpg" },
-        { "titulo": "Levi Ward", "imagem": "levi.jpg" }
+      "avaliacao": 4.7,
+      "personagens": [
+        {
+          "nome": "Bee Königswasser",
+          "imagem": "bee.jpg",
+          "descricao": "Neuroengenheira brilhante que acredita no poder das mulheres na ciência."
+        },
+        {
+          "nome": "Levi Ward",
+          "imagem": "levi.jpg",
+          "descricao": "Engenheiro espacial reservado que guarda sentimentos antigos por Bee."
+        }
       ]
     },
     {
-      "id": 3,
-      "titulo": "Amor Teoricamente",
-      "imagemCard": "amor teori.jpg",
-      "imagemCarrossel": "amor-teoricamente-carrossel.jpg",
-      "resumo": "Dois físicos rivais colidem em meio a disputas acadêmicas e namoros de mentira.",
-      "genero": "Romance/Acadêmico",
+      "id": "f45c",
+      "titulo": "ali",
+      "autor": "larissa",
+      "genero": "romance",
+      "resumo": "skshi",
+      "imagemCard": "a hipotese-png",
+      "imagemCarrossel": "",
+      "paginas": "360",
+      "lancamento": "2025"
+    },
+    {
+      "titulo": "Amor & Ciência",
+      "autor": "L. Cardoso",
+      "imagemCard": "amor.jpg",
+      "imagemCarrossel": "amor-carrossel.jpg",
+      "resumo": "Um romance entre algoritmos e emoções.",
+      "genero": "Ficção científica",
       "paginas": 350,
-      "lancamento": "2023",
-      "avaliacao": 5,
-      "detalhes": "Elsie Hannaway é uma física teórica que passou anos de sua vida moldando diferentes versões de si mesma. Em alguns dias, ela trabalha como professora adjunta e oferece serviços de namorada de mentira. O culpado é Jack Smith, o irritante e atraente irmão mais velho de seu cliente favorito, que acaba se revelando um importante físico experimental. Apesar das dificuldades, ela consegue equilibrar bem seu cuidadoso 'Elsie-verso'... até que ele começa a desabar.",
-      "fotos": [
-        { "titulo": "Capa", "imagem": "amor teori.jpg" },
-        { "titulo": "Elsie", "imagem": "elsie.jpeg" },
-        { "titulo": "Jack Smith", "imagem": "jack.jpeg" }
-      ]
+      "lancamento": "2025",
+      "avaliacao": 4.7,
+      "personagens": [
+        {
+          "nome": "Lia",
+          "imagem": "lia.jpg",
+          "descricao": "Pesquisadora curiosa e sonhadora."
+        },
+        {
+          "nome": "Noah",
+          "imagem": "noah.jpg",
+          "descricao": "Engenheiro que acredita no poder dos dados."
+        }
+      ],
+      "id": 3
     }
   ]
 }

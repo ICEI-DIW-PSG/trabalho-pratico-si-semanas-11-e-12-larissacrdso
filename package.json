@@ -1,16 +1,10 @@
 {
-  "name": "template-diw-20251-semana-11",
+  "name": "projeto-livros",
   "version": "1.0.0",
-  "description": "Back end com JSONServer. Projeto da disciplina de Desenvolvimento de Interfaces Web de vários cursos da PUC Minas",
-  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx json-server ./db/db.json"
+    "start:json": "json-server --watch db/db.json --port 3000"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "json-server": "0.17.0"
+  "devDependencies": {
+    "json-server": "^0.17.4"
   }
 }

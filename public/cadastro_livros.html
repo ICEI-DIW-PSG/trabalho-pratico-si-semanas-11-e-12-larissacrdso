@@ -1,79 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Cadastrar / Editar Livro</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Livros</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body style="background-color:#f2f2f2;">
+<body class="bg-light">
+  <div class="container py-5">
+    <h1 class="mb-4 text-center">Cadastro de Livros</h1>
 
-<nav class="navbar navbar-expand-lg" style="background-color: #6c757d;">
-  <div class="container">
-    <a class="navbar-brand text-white fw-bold" href="index.html">Home</a>
+    <form id="formLivro" class="card p-4 shadow">
+      <div class="mb-3">
+        <label class="form-label">Título</label>
+        <input type="text" id="titulo" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Autor</label>
+        <input type="text" id="autor" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Gênero</label>
+        <input type="text" id="genero" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Resumo</label>
+        <textarea id="resumo" class="form-control" rows="3"></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Imagem do Card</label>
+        <input type="text" id="imagemCard" class="form-control" placeholder="ex: a_hipotese.jpg">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Imagem do Carrossel</label>
+        <input type="text" id="imagemCarrossel" class="form-control" placeholder="ex: a_hipotese_carrossel.jpg">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Páginas</label>
+        <input type="number" id="paginas" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Ano de Lançamento</label>
+        <input type="number" id="lancamento" class="form-control">
+      </div>
+
+      <div class="d-flex justify-content-between">
+        <button type="submit" class="btn btn-success">Salvar</button>
+        <button type="button" id="btnLimpar" class="btn btn-secondary">Limpar</button>
+      </div>
+    </form>
+
+    <hr class="my-5">
+
+    <h2 class="mb-4 text-center">Livros Cadastrados</h2>
+    <div id="listaLivros" class="row g-3"></div>
   </div>
-</nav>
 
-<main class="container-lg py-5">
-  <h1 class="mb-4">Cadastrar / Editar Livro</h1>
-
-  <form id="formLivro" class="row g-3">
-    <input type="hidden" id="livroId">
-    <div class="col-md-6">
-      <label class="form-label">Título</label>
-      <input id="titulo" class="form-control" required>
-    </div>
-    <div class="col-md-6">
-      <label class="form-label">Gênero</label>
-      <input id="genero" class="form-control" required>
-    </div>
-    <div class="col-md-4">
-      <label class="form-label">Páginas</label>
-      <input id="paginas" type="number" min="1" class="form-control" required>
-    </div>
-    <div class="col-md-4">
-      <label class="form-label">Lançamento</label>
-      <input id="lancamento" class="form-control" required>
-    </div>
-    <div class="col-md-4">
-      <label class="form-label">Avaliação (ex: 4.5)</label>
-      <input id="avaliacao" type="number" step="0.1" min="0" max="5" class="form-control" required>
-    </div>
-
-    <div class="col-12">
-      <label class="form-label">Resumo (sinopse)</label>
-      <textarea id="resumo" class="form-control" rows="3" required></textarea>
-    </div>
-
-    <div class="col-md-6">
-      <label class="form-label">Nome do arquivo imagem (card)</label>
-      <input id="imagemCard" class="form-control" placeholder="ex: a hipotese.jpg" required>
-    </div>
-    <div class="col-md-6">
-      <label class="form-label">Nome do arquivo imagem (carrossel)</label>
-      <input id="imagemCarrossel" class="form-control" placeholder="ex: a-hipotese-carrossel.jpg" required>
-    </div>
-
-    <div class="col-12">
-      <label class="form-label">Fotos vinculadas (JSON array)</label>
-      <textarea id="fotos" class="form-control" placeholder='Ex: [{"titulo":"Capa","imagem":"a hipotese.jpg"}]' rows="3"></textarea>
-      <div class="form-text">Se preferir, insira um array JSON com objetos { "titulo": "...", "imagem": "nome.jpg" }</div>
-    </div>
-
-    <div class="col-12 d-flex gap-2">
-      <button id="btnSalvar" class="btn btn-primary">Salvar</button>
-      <button id="btnLimpar" type="button" class="btn btn-secondary">Limpar</button>
-      <a href="index.html" class="btn btn-dark">Voltar</a>
-    </div>
-  </form>
-
-  <hr class="my-5">
-
-  <h2>Livros cadastrados (edição / exclusão)</h2>
-  <div id="listaAdmin" class="row g-3 mt-3"></div>
-</main>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-<script src="app.js"></script>
+  <script src="cadastro.js"></script>
 </body>
 </html>

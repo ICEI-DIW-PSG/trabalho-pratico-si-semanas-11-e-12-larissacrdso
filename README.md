@@ -6,24 +6,24 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Larissa Cardoso Soares 
+- Matricula: 902511 
+- Proposta de projeto escolhida: Pessoas e Produções 
+- Breve descrição sobre seu projeto: O projeto fala sobre a escritora Ali Hazelwood e suas obras.
 
 **Print dos testes da API com Postman ou similar**
 
-<< COLOQUE A IMAGEM GET AQUI >>
+![GET](image.png)
 
-<< COLOQUE A IMAGEM POST AQUI >>
+![POST](image-1.png)
 
-<< COLOQUE A IMAGEM PUT AQUI >>
+![PUT](image-2.png)
 
-<< COLOQUE A IMAGEM DELETE AQUI >>
+![DELETE](image-3.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![NETWORK](image-4.png)
 
 ## **Orientações Gerais**
 

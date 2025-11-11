@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Blog da Larissa - Ali Hazelwood</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog da Larissa - Ali Hazelwood</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body style="background-color: #f2f2f2;">
 
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6c757d;">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
+      <!-- Menu -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item"><a class="nav-link fw-bold" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link fw-bold" href="#">Bibliografia</a></li>
           <li class="nav-item"><a class="nav-link fw-bold" href="#">Carreira</a></li>
           <li class="nav-item"><a class="nav-link fw-bold" href="#">Vida Pessoal</a></li>
-          <li class="nav-item"><a class="nav-link fw-bold" href="cadastro_livros.html">Cadastrar</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold" href="cadastro_livros.html">Cadastrar Livro</a></li>
+
         </ul>
 
         <!-- Subscribe -->
@@ -31,52 +31,63 @@
           <button class="btn btn-dark btn-sm" type="submit">Subscribe</button>
         </form>
       </div>
+
+      <!-- Botão hamburguer -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
   </nav>
 </header>
 
-<main>
-  <section class="py-5 shadow-sm mb-5" style="background-color: #dee2e6;">
-    <div class="container text-center">
-      <h1 class="display-3 fw-bold">Ali Hazelwood</h1>
-      <p class="lead mt-3">"Ali Hazelwood é uma verdadeira potência dos romances." – Christina Lauren</p>
-    </div>
-  </section>
+    <!-- Topo  -->
+    <section class="py-5 shadow-sm mb-5" style="background-color: #dee2e6;">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold">Ali Hazelwood</h1>
+            <p class="lead mt-3">"Ali Hazelwood é uma verdadeira potência dos romances." – Christina Lauren</p>
+        </div>
+    </section>
 
-  <!-- Carrossel -->
-  <section class="container-lg py-5">
-    <h2 class="text-center mb-4">Destaques</h2>
-    <div id="carouselDestaques" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner" id="destaquesContainer"></div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestaques" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselDestaques" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Próximo</span>
-      </button>
-    </div>
-  </section>
+    <!-- Seção 1 - Carrossel de destaques -->
+    <section class="container-lg py-5">
+        <h2 class="text-center mb-4">Destaques</h2>
+        <div id="carouselDestaques" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="destaquesContainer"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestaques" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDestaques" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </section>
 
-  <!-- Cards -->
-  <main class="container-lg py-5">
-    <h2 class="text-center mb-5">Livros de Ali Hazelwood</h2>
-    <div class="row g-5 justify-content-center" id="livrosContainer"></div>
-  </main>
+    <!-- Seção 2 - Cards de livros -->
+    <main class="container-lg py-5">
+        <h2 class="text-center mb-5">Livros de Ali Hazelwood</h2>
+        <div class="row g-5 justify-content-center" id="livrosContainer"></div>
+    </main>
 
-  <!-- Sobre -->
-  <section class="py-5" style="background-color: #e9ecef;">
-    <div class="container text-center">
-      <h2 class="mb-3 fw-bold">Sobre a autora do site</h2>
-      <p>Olá! Meu nome é <strong>Larissa</strong>. Este projeto foi criado como parte do trabalho prático da disciplina, trazendo informações sobre a escritora <strong>Ali Hazelwood</strong> e suas obras.</p>
-    </div>
-  </section>
+    <!-- Seção 3 - Sobre a autora do site -->
+    <section class="py-5" style="background-color: #e9ecef;">
+        <div class="container text-center">
+            <h2 class="mb-3 fw-bold">Sobre a autora do site</h2>
+            <p>Olá! Meu nome é <strong>Larissa</strong>. Este projeto foi criado como parte do trabalho prático da disciplina, trazendo informações sobre a escritora <strong>Ali Hazelwood</strong> e suas obras.</p>
+        </div>
+    </section>
 
-  <footer class="text-center py-4" style="background-color: #6c757d; color: white;">
-    <p class="mb-0">Um espaço dedicado à magia das histórias de Ali Hazelwood.</p>
-  </footer>
-</main>
+    <!-- Rodapé -->
+    <footer class="text-center py-4" style="background-color: #6c757d; color: white;">
+        <p class="mb-0">Um espaço dedicado à magia das histórias de Ali Hazelwood.</p>
+    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-<script src="app.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 </html>
